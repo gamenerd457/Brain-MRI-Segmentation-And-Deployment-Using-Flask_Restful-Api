@@ -1,6 +1,8 @@
 # Brain-MRI-Segmentation-And-Deployment-Using-Flask_Restful-Api
 In this project I have trained a UNet model to predict masks for brain image segmentation and the model has been deployed using flask_restful api,so that we can get the output by sending a POST request
 
+**brain_MRI.h5 is the trained model**
+
 ## Dataset:-
 https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation <br />
 This dataset contains brain MR images together with manual FLAIR abnormality segmentation masks. <br />
