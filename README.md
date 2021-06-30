@@ -13,4 +13,11 @@ They correspond to 110 patients included in The Cancer Genome Atlas (TCGA) lower
 
 #### Running  inference using flask_restful_api :
 * (imp) In infer.py file provide the full path to brain_MRI.h5 file
-* start the app server using : python deploy.py
+* start the app server using : python deploy.py <br />
+![](https://github.com/gamenerd457/Brain-MRI-Segmentation-And-Deployment-Using-Flask_Restful-Api/blob/master/deploy_pic/pic2.png) <br />
+* Run the inference using the given test_image.tif <br />
+![](https://github.com/gamenerd457/Brain-MRI-Segmentation-And-Deployment-Using-Flask_Restful-Api/blob/master/deploy_pic/pic1.png)
+
+##### Output from the api :
+![](https://github.com/gamenerd457/Brain-MRI-Segmentation-And-Deployment-Using-Flask_Restful-Api/blob/master/deploy_pic/pic3.png)
+
