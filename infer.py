@@ -12,7 +12,7 @@ def infer(fname):
 	x=image.img_to_array(img)
 	x=x/255
 	x=np.expand_dims(x,axis=0)
-	model=tf.keras.models.load_model("give full path to brain_MRI.h5")
+	model=tf.keras.models.load_model("/home/adithyan_sukumar/Desktop/brain_MRI/brain_MRI.h5")
 	pred=model.predict(x)
 	plt.figure(figsize=(15,15))
 	plt.subplot(1,2,1)
